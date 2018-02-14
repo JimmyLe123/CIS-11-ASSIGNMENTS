@@ -41,3 +41,9 @@ Question 3: "What is the sum of each pair of binary integers?"
 a) 00001111 + 00000010 = 00010001
 b) 11010101 + 01101011 = 
 c) 00001111 + 00001111 = 00011110
+
+Question 5: "What is the minimum number of binary bits needed to represent each of the following
+unsigned decimal integers?"
+a) 65 = 
+b) 409 = 
+c) 16385 = 
