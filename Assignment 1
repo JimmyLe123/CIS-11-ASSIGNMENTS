@@ -1,2 +1,9 @@
 1.1.3 Section Review:
-Question 1: 
+Question 1: Assemblers essentially converts the source code that has been entered from assembly 
+language into machine language. A linker is something that takes the files that have been 
+already converted from the assembler and combines all of them into a single executable code to output.
+
+Question 3: One-to-many relationships between high level language and machine language is that for one line of code from 
+high level language can be translated to many instructions or actions that the machine language can interpret.
+
+Question 8: 
