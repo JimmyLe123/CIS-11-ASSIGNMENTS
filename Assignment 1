@@ -6,4 +6,19 @@ already converted from the assembler and combines all of them into a single exec
 Question 3: One-to-many relationships between high level language and machine language is that for one line of code from 
 high level language can be translated to many instructions or actions that the machine language can interpret.
 
-Question 8: 
+Question 8: I personally think that type checking would be have more restrictions on high level languages. I think it is more
+strict because there could be errors in that code where programmers 
+would have trouble identifying where the problem originated from.
+
+Question 12: C++ Expresstion: X = (Y * 4) + 3
+Assembly language would have to do the operation in parentheses first, so first, the program would move Y spaces and then add by 4 
+because the data prioritizes Y + 4 first. Second, assembly language would move 3 spaces to a separate data storage and then
+would add three to the result of (Y * 4). After evaluating, X would then be defined and move to that 
+many spaces to the first data storage.
+
+1.2.1 Section Review:
+Question 2: I suppose that translate programs run and execute quicker than interpreted ones because since it the program
+has already been broken down into simpler terms, it would require less work to run and execute the entire program.
+
+Question 3:"(True/False): When an interpreted program written in language L1 runs, each of its instructions
+is decoded and executed by a program written in language L0."
