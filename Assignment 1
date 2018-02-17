@@ -47,3 +47,15 @@ unsigned decimal integers?"
 a) 65 = 1000001, so you need at least 7 bits
 b) 409 = 100110011, so you need at least 9 bits.
 c) 16385 = 100000000000001, so you need at least 15 bits.
+
+Question 6: What is the hexadecimal representation of each of the following binary numbers?
+a) 0011 0101 1101 1010 = 35DA
+b) 1100 1110 1010 0011 = CEA3
+c) 1111 1110 1101 1011 = FEDB
+
+Question 7: What is the binary representation of the following hexadecimal numbers?
+a. A4693FBC = 1100 
+b. B697C7A1 = 
+c. 2B3D9461 = 
+
+
