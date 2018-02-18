@@ -103,6 +103,45 @@ b) 1BF = 447
 c) 1001 = 4097
 
 Question 10: What is the unsigned decimal representation of each of the following hexadecimal integers?
-a. 62 = 98
-b. 4B3 = 1203
-c. 29F = 671
+a) 62 = 98
+b) 4B3 = 1203
+c) 29F = 671
+
+Question 11: What is the 16-bit hexadecimal representation of each of the following signed decimal integers?
+a) -24 = -18
+b) -331 = -14B
+
+Question 12: What is the 16-bit hexadecimal representation of each of the following signed decimal integers?
+a) -21 = -15
+b) -45 = -2D
+
+Question 13: The following 16-bit hexadecimal numbers represent signed integers. Convert each to decimal.
+a) 6BF9 = 27641
+b) C123 = -16093
+
+Question 14: The following 16-bit hexadecimal numbers represent signed integers. Convert each to
+decimal.
+a) 4CD2 = 19666
+b) 8230 = -32208
+
+Question 15: What is the decimal representation of each of the following signed binary numbers?
+a) 10000000
+b) 11001100
+c) 10110111
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
