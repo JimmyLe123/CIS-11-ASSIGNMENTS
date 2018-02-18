@@ -77,6 +77,12 @@ Question 4:  Calculate binary 00001101 minus 00000111:
 
 Question 5: How many bits are used by each of the following data types?
 a) word uses 16 bits because its double the amount of byte.
-b) doubleword uses 32 bits because you double word
-c) quadword uses 64 bits because its double the bits from doubleword
-d) double quadword uses 128 bits because its double from quad word
+b) doubleword uses 32 bits because you double word.
+c) quadword uses 64 bits because its double the bits from doubleword.
+d) double quadword uses 128 bits because its double from quad word.
+
+Question 6:  What is the minimum number of binary bits needed to represent each of the following
+unsigned decimal integers?
+a) 4095 = 111111111111, so you need at least 12 bits 
+b) 65534 = 
+c) 42319 = 
