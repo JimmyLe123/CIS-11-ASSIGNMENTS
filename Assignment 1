@@ -170,6 +170,20 @@ F | T |     F
 T | F |     F
 F | F |     T
 
+EXTRA CREDIT: 1.4.2 Section Review:
+Question 1: Describe the following boolean expression: ¬X ∨ Y.
+
+
+Question 2 :Describe the following boolean expression: (X ∧ Y).
+
+
+Question 3: What is the value of the boolean expression (T ∧ F) ∨ T ?
+
+
+Question 4: What is the value of the boolean expression ¬(F ∨ T) ?
+
+
+Question 5: What is the value of the boolean expression ¬F ∨ ¬T ? 
 
 
 
