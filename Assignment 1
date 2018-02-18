@@ -125,9 +125,43 @@ a) 4CD2 = 19666
 b) 8230 = -32208
 
 Question 15: What is the decimal representation of each of the following signed binary numbers?
-a) 10000000
-b) 11001100
-c) 10110111
+a) 10110101 = -75 (From signed 2s complement)
+b) 00101010 = 42 (No need for 2s complement)
+c) 11110000 = -16 (From signed 2s complement)
+
+Question 16: What is the decimal representation of each of the following signed binary numbers?
+a) 10000000 = -128 (From signed 2s complement)
+b) 11001100 = -52 (From signed 2s complement)
+c) 10110111 = -73 (From signed 2s complement)
+
+Question 17: What is the 8-bit binary (two’s-complement) representation of each of the following signed
+decimal integers?
+a) -5 = 11111011
+b) -42 = 11010110
+c) -16 = 11110000 
+
+Question 18: What is the 8-bit binary (two’s-complement) representation of each of the following signed
+decimal integers?
+a) -72 = 10111000 
+b) -98 = 10011110
+c) -26 = 11100110
+
+Question 19: What is the sum of each pair of hexadecimal integers?
+a) 6B4 + 3FE = AB2
+b) A49 + 6BD = 1106
+
+Question 20: What is the sum of each pair of hexadecimal integers?
+a) 7C4 + 3BE = B82
+b) B69 + 7AD = 1316
+
+Question 21: What are the hexadecimal and decimal representations of the ASCII character capital B?
+
+Question 22: What are the hexadecimal and decimal representations of the ASCII character capital G?
+
+Question 25:  Create a truth table to show all possible inputs and outputs for the boolean function
+described by ¬(A v B).
+
+
 
 
 
