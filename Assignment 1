@@ -45,7 +45,7 @@ c) 00001111 + 00001111 = 00011110
 Question 5: "What is the minimum number of binary bits needed to represent each of the following
 unsigned decimal integers?"
 a) 65 = 1000001, so you need at least 7 bits
-b) 409 = 100110011, so you need at least 9 bits.
+b) 409 = 110011001, so you need at least 9 bits.
 c) 16385 = 100000000000001, so you need at least 15 bits.
 
 Question 6: What is the hexadecimal representation of each of the following binary numbers?
@@ -81,8 +81,18 @@ b) doubleword uses 32 bits because you double word.
 c) quadword uses 64 bits because its double the bits from doubleword.
 d) double quadword uses 128 bits because its double from quad word.
 
-Question 6:  What is the minimum number of binary bits needed to represent each of the following
+Question 6: What is the minimum number of binary bits needed to represent each of the following
 unsigned decimal integers?
 a) 4095 = 111111111111, so you need at least 12 bits 
-b) 65534 = 
-c) 42319 = 
+b) 65534 = 1111111111111110, so you need at least 16 bits. 
+c) 42319 = 1010010101001111, so you need at least 16 bits.
+
+Question 7: What is the hexadecimal representation of each of the following binary numbers?
+a) 0011 0101 1101 1010 = 35DA
+b) 1100 1110 1010 0011 = CEA3
+c) 1111 1110 1101 1011 = FEDB
+
+Question 8: What is the binary representation of the following hexadecimal numbers?
+a) 0126F9D4 = 
+b) 6ACDFA95 = 
+c) F69BDC2A = 
