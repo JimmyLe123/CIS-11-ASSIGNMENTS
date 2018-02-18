@@ -155,11 +155,20 @@ a) 7C4 + 3BE = B82
 b) B69 + 7AD = 1316
 
 Question 21: What are the hexadecimal and decimal representations of the ASCII character capital B?
+According to the ASCII table from the back of the book, B has a decimal value of 66 and 
+a hexadecimal value of 42.
 
 Question 22: What are the hexadecimal and decimal representations of the ASCII character capital G?
+According to the ASCII table from the back of the book, G has a decimal value of 71 and
+a hexadecimal value of 47.
 
 Question 25:  Create a truth table to show all possible inputs and outputs for the boolean function
 described by ¬(A v B).
+A | B | ¬(A v B)
+T | T |     F
+F | T |     F
+T | F |     F
+F | F |     T
 
 
 
