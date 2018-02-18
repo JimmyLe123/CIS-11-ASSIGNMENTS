@@ -66,3 +66,11 @@ Question 2: What is the decimal representation of each of the following unsigned
 a) 00110101 = 53
 b) 10010110 = 150
 c) 11001100 = 204
+
+Question 3: What is the sum of each pair of binary integers?
+a) 10101111 + 11011011 = 110001010
+b) 10010111 + 11111111 = 110010110
+c) 01110101 + 10101100 = 100100001
+
+Question 4:  Calculate binary 00001101 minus 00000111:
+00001101 - 00000111 = 
