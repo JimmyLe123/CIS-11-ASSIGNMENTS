@@ -59,6 +59,10 @@ b. B697C7A1 = 1011 0110 1001 0111 1100 0111 1010 0001
 c. 2B3D9461 = 0010 1011 0011 1101 1001 0100 0110 0001
 
 1.7.1 Short Answer:
-
 Question 1: The most significant bit(MSB) is the left most position from binary integers. For example, from the 8 bit binary 
-integer, 10001001, the MSB would be the 1 all the way to the left, so it would have a value of 2 to the seventh power. 
+integer, 10001001, the MSB would be the 1 all the way to the left, so it would have a value of 2 to the seventh power.
+
+Question 2: What is the decimal representation of each of the following unsigned binary integers?
+a) 00110101 = 53
+b) 10010110 = 150
+c) 11001100 = 204
