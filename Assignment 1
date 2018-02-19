@@ -170,35 +170,22 @@ F | T |     F
 T | F |     F
 F | F |     T
 
+1.7.2 Algorithm Workbench: 
+
 EXTRA CREDIT: 1.4.2 Section Review:
 Question 1: Describe the following boolean expression: ¬X ∨ Y.
-
+¬X ∨ Y = (Not X) or Y
 
 Question 2 :Describe the following boolean expression: (X ∧ Y).
+(X ∧ Y) = Both X and Y
 
+Question 3: What is the value of the boolean expression (T ∧ F) ∨ T?
+(T ∧ F) ∨ T = (True and False) or True = True
 
-Question 3: What is the value of the boolean expression (T ∧ F) ∨ T ?
+Question 4: What is the value of the boolean expression ¬(F ∨ T)?
+¬(F ∨ T) = Not(False or True) = False
 
-
-Question 4: What is the value of the boolean expression ¬(F ∨ T) ?
-
-
-Question 5: What is the value of the boolean expression ¬F ∨ ¬T ? 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Question 5: What is the value of the boolean expression ¬F ∨ ¬T? 
+¬F ∨ ¬T = Not False or Not True = True 
 
 
