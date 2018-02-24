@@ -1,1 +1,19 @@
+2.1.5 Section Review:
+Question 1: The central processor unit (CPU) contains registers and what other basic elements?
+The four components that the CPU has are registers, the Control Unit(CU), the Arithmetic Logic Unit(ALU), and the clock.
 
+Question 2: The central processor unit is connected to the rest of the computer system using what three
+buses? The CPU connects the system using three buses to connect information, the data bus, the control bus, and the address bus.
+
+Question 3: Why does memory access take more machine cycles than register access? Memory access takes more cycles than register
+because the computer requires to read and write the memory since it is not a part of the CPU unlike registers that are 
+implemented into the CPU.
+
+Question 4: What are the three basic steps in the instruction execution cycle? The instruction execution style can all be 
+simplified into three steps: 1) Fetch, 2) Decode, and 3) Execute.
+
+Question 5: Which two additional steps are required in the instruction execution cycle when a memory
+operand is used? Whenever memory operands are involved, the instruction execution cycle include two more steps which are:
+1) Fecth the operands, and 2) Store the result.
+
+2.2.4 Section Review:
