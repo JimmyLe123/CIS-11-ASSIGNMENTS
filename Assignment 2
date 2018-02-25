@@ -17,3 +17,45 @@ operand is used? Whenever memory operands are involved, the instruction executio
 1) Fecth the operands, and 2) Store the result.
 
 2.2.4 Section Review:
+Question 1: What are the x86 processor’s three basic modes of operation? The three basic modes of operation of the x86 
+processor are 1) Protected mode, 2) Real-address mode, and 3) Private 8086 mode.
+
+Question 2:  Name all eight 32-bit general-purpose registers. The eight 32-bit general-purpose registers are: 1) EAX, 2) EBX,
+3) ECX, 4) EDX, 5) EBP, 6) ESP, 7) ESI, and 8) EDI.
+
+Question 3: Name all six segment registers. All six of the 16-bit segment registers are: 1) CS, 2) SS, 3) DS, 4) ES 5) FS, 6) GS
+
+Question 4: What special purpose does the ECX register serve? The ECX registers serves as a loop counter when the 
+CPU automatically access it.
+
+2.4.3 Section Review: 
+Question 1: Describe SRAM and its most common use.
+
+Question 2: Describe VRAM
+
+Question 3: List at least two features found in the Intel P965 Express chipset
+
+Question 4: Name four types of RAM mentioned in this chapter.
+
+Question 5: What is the purpose of the 8259A PIC controller?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
