@@ -17,41 +17,45 @@ operand is used? Whenever memory operands are involved, the instruction executio
 1) Fecth the operands, and 2) Store the result.
 
 2.4.3 Section Review: 
-Question 1: Describe SRAM and its most common use. SRAM(also known as Static Random Access Memory) is mainly used for the CPU 
-cache memory where it does not have to be refreshed because it is high speed cache memory.
-
-Question 2: Describe VRAM. VRAM(also known as Video Random Access Memory) is mainly used for video data. The most knoen function
-for VRAM is beinf able to multitask between refreshing what the computer may be displaying and writing data to show what to 
-display.
-
-Question 3: List at least two features found in the Intel P965 Express chipset: 1) Support for many USB ports, supports multiple
-PCI express slots, networking, and Intel Quiet System technology. 2) I/O Controller Hub (Intel ICH8/R/DH) uses 
-Intel Matrix Storage Technology (MST) to support multiple Serial ATA devices (disk drives).
-
-Question 4: Name four types of RAM mentioned in this chapter. The four types of RAM that are mentioned in this section are:
-1) VRAM(Video RAM), 2) SRAM(Static RAM), 3) DRAM(Dynamic Ram), and 4) CMOS RAM(Complimentary Metal Oxide Semiconductor RAM)
-
 Question 5: What is the purpose of the 8259A PIC controller? The 8259A PIC controller has the job of handling external 
 interrupts from any hardware device, such as disk drives, clock drives, and keyboards. The devices are able to interrupt the
 CPU so that it can process their requests as soon as possible.
 
+2.5.2 Section Review: 
+Question 1: Of the four levels of input/output in a computer system, which is the most universal and portable? From the four
+levels of I/O in a computer sustem, the most universal and portable is the application program(Level 3). The application
+program is portable because it will work with many different computer systems and are not dependent on one OS.
 
+Question 3: Why are device drivers necessary, given that the BIOS already has code that communicates
+with the computer’s hardware? Different types of device drivers are being made and so, they are changing, so the BIOS would
+not be able to keep up with the new changes to the device drivers. 
 
+Question 4: In the example regarding displaying a string of characters, which level exists between the
+operating system and the video controller card? Using the string of characters example, the level that appears in between 
+the OS and the video controller card is the BIOS level(Level 1).
 
+Question 5: Is it likely that the BIOS for a computer running MS-Windows would be different from that
+used by a computer running Linux? The BIOS for either Windows or Linux would not be different. Although the OS for each 
+platform would be different, the system would not change drastically because the same BIOS is used.
 
+2.8 Review Questions: 
+Question 7:
 
+Question 8:
 
+Question 9: 
 
+Question 10:
 
+Question 12:
 
+Question 19:
 
+Question 20: 
 
+Question 25: 
 
-
-
-
-
-
+Question 26: 
 
 
 
