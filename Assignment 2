@@ -39,23 +39,32 @@ used by a computer running Linux? The BIOS for either Windows or Linux would not
 platform would be different, the system would not change drastically because the same BIOS is used.
 
 2.8 Review Questions: 
-Question 7:
+Question 7: Which part of the CPU performs floating-point arithmetic? The part of the CPU that performs floating point
+arithmetic is floating point unit(FPU).
 
-Question 8:
+Question 8: On a 32-bit processor, how many bits are contained in each floating-point data register? The number of bits for
+each floating-point data register amounts to 80 bits.
 
-Question 9: 
+Question 9: (True/False): The x86-64 instruction set is backward-compatible with the x86 instruction set. True
 
-Question 10:
+Question 10: (True/False): In current 64-bit chip implementations, all 64 bits are used for addressing. False. Theoretically, 
+the addresses can hold up for 64 bits, but currently they can only hold up to 48 bits for address.
 
-Question 12:
+Question 12: (True/False): Static RAM is usually less expensive than dynamic RAM. True. It is expensice mainly for the high 
+speed cache memory.
 
-Question 19:
+Question 19: (True/False): A bus is a plastic cable that is attached to the motherboard at both ends, but
+does not sit directly on the motherboard. False. A PCI bus connects the CPU to other system devices of the computer.
 
-Question 20: 
+Question 20: (True/False): CMOS RAM is the same as static RAM, meaning that it holds its value without
+any extra power or refresh cycles. False. Static Ram does not have to be refreshed whereas CMOS Ram will have to be refreshed 
+with the help of a battery.
 
-Question 25: 
+Question 25: At which level(s) can an assembly language program manipulate input/output? All of the levels for I/O operations
+manipulate input and output for assembly language program.
 
-Question 26: 
+Question 26: Why do game programs often send their sound output directly to the sound card’s hardware
+ports? The game program itself will run better because the sound is directly on the hardware itself.
 
 
 
