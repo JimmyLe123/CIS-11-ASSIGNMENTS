@@ -16,28 +16,24 @@ Question 5: Which two additional steps are required in the instruction execution
 operand is used? Whenever memory operands are involved, the instruction execution cycle include two more steps which are:
 1) Fecth the operands, and 2) Store the result.
 
-2.2.4 Section Review:
-Question 1: What are the x86 processor’s three basic modes of operation? The three basic modes of operation of the x86 
-processor are 1) Protected mode, 2) Real-address mode, and 3) Private 8086 mode.
-
-Question 2:  Name all eight 32-bit general-purpose registers. The eight 32-bit general-purpose registers are: 1) EAX, 2) EBX,
-3) ECX, 4) EDX, 5) EBP, 6) ESP, 7) ESI, and 8) EDI.
-
-Question 3: Name all six segment registers. All six of the 16-bit segment registers are: 1) CS, 2) SS, 3) DS, 4) ES 5) FS, 6) GS
-
-Question 4: What special purpose does the ECX register serve? The ECX registers serves as a loop counter when the 
-CPU automatically access it.
-
 2.4.3 Section Review: 
-Question 1: Describe SRAM and its most common use.
+Question 1: Describe SRAM and its most common use. SRAM(also known as Static Random Access Memory) is mainly used for the CPU 
+cache memory where it does not have to be refreshed because it is high speed cache memory.
 
-Question 2: Describe VRAM
+Question 2: Describe VRAM. VRAM(also known as Video Random Access Memory) is mainly used for video data. The most knoen function
+for VRAM is beinf able to multitask between refreshing what the computer may be displaying and writing data to show what to 
+display.
 
-Question 3: List at least two features found in the Intel P965 Express chipset
+Question 3: List at least two features found in the Intel P965 Express chipset: 1) Support for many USB ports, supports multiple
+PCI express slots, networking, and Intel Quiet System technology. 2) I/O Controller Hub (Intel ICH8/R/DH) uses 
+Intel Matrix Storage Technology (MST) to support multiple Serial ATA devices (disk drives).
 
-Question 4: Name four types of RAM mentioned in this chapter.
+Question 4: Name four types of RAM mentioned in this chapter. The four types of RAM that are mentioned in this section are:
+1) VRAM(Video RAM), 2) SRAM(Static RAM), 3) DRAM(Dynamic Ram), and 4) CMOS RAM(Complimentary Metal Oxide Semiconductor RAM)
 
-Question 5: What is the purpose of the 8259A PIC controller?
+Question 5: What is the purpose of the 8259A PIC controller? The 8259A PIC controller has the job of handling external 
+interrupts from any hardware device, such as disk drives, clock drives, and keyboards. The devices are able to interrupt the
+CPU so that it can process their requests as soon as possible.
 
 
 
