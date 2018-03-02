@@ -1,11 +1,14 @@
 3.1.11 Section Review:
-Question 1: 
+Question 1:  Using the value –35, write it as an integer literal in decimal, hexadecimal, octal, and binary
+formats that are consistent with MASM syntax.
 
-Question 2: 
+Question 2: (Yes/No): Is A5h a valid hexadecimal literal?
 
-Question 3:
+Question 3: (Yes/No): Does the multiplication operator (*) have a higher precedence than the division
+operator (/) in integer expressions?
 
-Question 4:
+Question 4: Create a single integer expression that uses all the operators from Section 3.1.2. Calculate
+the value of the expression.
 
 3.2.4 Section Review:
 Question 4:
