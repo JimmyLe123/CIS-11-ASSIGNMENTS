@@ -11,48 +11,54 @@ Question 4: Create a single integer expression that uses all the operators from 
 the value of the expression.
 
 3.2.4 Section Review:
-Question 4:
+Question 4: In the AddTwo program, which register holds the sum?
 
-Question 5:
+Question 5: In the AddTwo program, which statement halts the program?
 
 3.3.3 Section Review: 
-Question 1:
+Question 1: What types of files are produced by the assembler? 
 
-Question 2:
+Question 2: (True/False): The linker extracts assembled procedures from the link library and inserts
+them in the executable program.
 
-Question 3:
+Question 3: (True/False): When a program’s source code is modified, it must be assembled and linked
+again before it can be executed with the changes.
 
-Question 4:
+Question 4: Which operating system component reads and executes programs?
 
 3.4.13 Section Review:
-Question 1:
+Question 1: Create an uninitialized data declaration for a 16-bit signed integer.
 
-Question 2:
+Question 2: Create an uninitialized data declaration for an 8-bit unsigned integer.
 
-Question 3:
+Question 3: Create an uninitialized data declaration for an 8-bit signed integer.
 
-Question 4:
+Question 4: Create an uninitialized data declaration for a 64-bit integer.
 
-Question 5:
+Question 5: Which data type can hold a 32-bit signed integer?
 
 3.5.5 Section Review:
-Question 3:
+Question 3: Write a statement that causes the assembler to calculate the number of bytes in the following
+array, and assign the value to a symbolic constant named ArraySize:
+myArray WORD 20 DUP(?)
 
-3.9.1 Section Review:
-Question 4:
+3.9.1 Short Answer:
+Question 4: Explain why the term assembler language is not quite correct.
 
-Question 5:
+Question 5: Explain the difference between big endian and little endian. Also, look up the origins of this
+term on the Web.
 
-Question 6:
+Question 6: Why might you use a symbolic constant rather than an integer literal in your code?
 
-Question 25: 
+Question 25: Which data directive creates a 32-bit signed integer variable?
 
 3.9.2 Algorithm Workbench:
-Question 4:
+Question 4: Find out if you can declare a variable of type DWORD and assign it a negative
+value. What does this tell you about the assembler’s type checking?
 
-Question 7:
+Question 7: Declare an array of 120 uninitialized unsigned doubleword values.
 
-Question 13:
+Question 13: Declare a string variable containing the word “TEST” repeated 500 times.
 
 3.10 Programming Exercises:
 
