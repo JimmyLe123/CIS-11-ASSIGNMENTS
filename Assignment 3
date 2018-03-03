@@ -13,29 +13,33 @@ Question 4: Create a single integer expression that uses all the operators from 
 the value of the expression.
 
 3.2.4 Section Review:
-Question 4: In the AddTwo program, which register holds the sum?
+Question 4: In the AddTwo program, which register holds the sum? The register that holds the sum is the EAX register because 
+the line " add eax, 6" tells the program to add 6 to the EAX register.
 
-Question 5: In the AddTwo program, which statement halts the program?
+Question 5: In the AddTwo program, which statement halts the program? The statement that halts the program is 
+"INVOKE ExitProcess, 0" because you are telling the program to stop the function. 
 
 3.3.3 Section Review: 
-Question 1: What types of files are produced by the assembler? 
+Question 1: What types of files are produced by the assembler? From the assembler, you created both an object file(obj file)
+and a listing file(lst file).
 
 Question 2: (True/False): The linker extracts assembled procedures from the link library and inserts
-them in the executable program.
+them in the executable program. True.
 
 Question 3: (True/False): When a program’s source code is modified, it must be assembled and linked
-again before it can be executed with the changes.
+again before it can be executed with the changes. True.
 
-Question 4: Which operating system component reads and executes programs?
+Question 4: Which operating system component reads and executes programs? The operating system loader utility reads the 
+executable file into memory and gives it to the CPU to get the memory address to execute the program.
 
 3.4.13 Section Review:
-Question 1: Create an uninitialized data declaration for a 16-bit signed integer.
+Question 1: Create an uninitialized data declaration for a 16-bit signed integer. example1 SWORD ?
 
-Question 2: Create an uninitialized data declaration for an 8-bit unsigned integer.
+Question 2: Create an uninitialized data declaration for an 8-bit unsigned integer. example2 BYTE ?
 
-Question 3: Create an uninitialized data declaration for an 8-bit signed integer.
+Question 3: Create an uninitialized data declaration for an 8-bit signed integer. example3 SBYTE ?
 
-Question 4: Create an uninitialized data declaration for a 64-bit integer.
+Question 4: Create an uninitialized data declaration for a 64-bit integer. example4 QWORD ?
 
 Question 5: Which data type can hold a 32-bit signed integer?
 
