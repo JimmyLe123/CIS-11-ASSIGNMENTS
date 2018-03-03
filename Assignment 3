@@ -41,12 +41,15 @@ Question 3: Create an uninitialized data declaration for an 8-bit signed integer
 
 Question 4: Create an uninitialized data declaration for a 64-bit integer. example4 QWORD ?
 
-Question 5: Which data type can hold a 32-bit signed integer?
+Question 5: Which data type can hold a 32-bit signed integer? The data type that can hold a 32-bit signed integer is
+SDWORD.
 
 3.5.5 Section Review:
 Question 3: Write a statement that causes the assembler to calculate the number of bytes in the following
 array, and assign the value to a symbolic constant named ArraySize:
 myArray WORD 20 DUP(?)
+
+SIZE = ($ - myArray)
 
 3.9.1 Short Answer:
 Question 4: Explain why the term assembler language is not quite correct.
