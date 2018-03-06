@@ -65,7 +65,8 @@ term on the Web. Big endian order stores and retirves data from highest to lowes
 significant byte while little endian is the opposite. The origins of these two terms come from Johnathan Swift's 1726 satire
 Gulliver's Travels in which Danny Cohen introduced the two phrases for byte ordering in an article. 
 
-Question 6: Why might you use a symbolic constant rather than an integer literal in your code? 
+Question 6: Why might you use a symbolic constant rather than an integer literal in your code? If a constant is being 
+altered throughout the whole program, it would be better to leave it as a constant so it does not change.
 
 Question 25: Which data directive creates a 32-bit signed integer variable?
 SDWORD
@@ -74,9 +75,12 @@ SDWORD
 Question 4: Find out if you can declare a variable of type DWORD and assign it a negative
 value. What does this tell you about the assembler’s type checking?
 
+
 Question 7: Declare an array of 120 uninitialized unsigned doubleword values.
 
+
 Question 13: Declare a string variable containing the word “TEST” repeated 500 times.
+
 
 3.10 Programming Exercises:
 
