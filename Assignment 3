@@ -33,13 +33,17 @@ Question 4: Which operating system component reads and executes programs? The op
 executable file into memory and gives it to the CPU to get the memory address to execute the program.
 
 3.4.13 Section Review:
-Question 1: Create an uninitialized data declaration for a 16-bit signed integer. example1 SWORD ?
+Question 1: Create an uninitialized data declaration for a 16-bit signed integer. 
+example1 SWORD ?
 
-Question 2: Create an uninitialized data declaration for an 8-bit unsigned integer. example2 BYTE ?
+Question 2: Create an uninitialized data declaration for an 8-bit unsigned integer. 
+example2 BYTE ?
 
-Question 3: Create an uninitialized data declaration for an 8-bit signed integer. example3 SBYTE ?
+Question 3: Create an uninitialized data declaration for an 8-bit signed integer. 
+example3 SBYTE ?
 
-Question 4: Create an uninitialized data declaration for a 64-bit integer. example4 QWORD ?
+Question 4: Create an uninitialized data declaration for a 64-bit integer. 
+example4 QWORD ?
 
 Question 5: Which data type can hold a 32-bit signed integer? The data type that can hold a 32-bit signed integer is
 SDWORD.
@@ -52,14 +56,19 @@ myArray WORD 20 DUP(?)
 SIZE = ($ - myArray)
 
 3.9.1 Short Answer:
-Question 4: Explain why the term assembler language is not quite correct.
+Question 4: Explain why the term assembler language is not quite correct. The reason why assembler language is not exactly 
+correct is because assembler implies that the compiler is translating the source code from assembly language into 
+machine language.
 
 Question 5: Explain the difference between big endian and little endian. Also, look up the origins of this
-term on the Web.
+term on the Web. Big endian order stores and retirves data from highest to lowest or from most significant byte to least
+significant byte while little endian is the opposite. The origins of these two terms come from Johnathan Swift's 1726 satire
+Gulliver's Travels in which Danny Cohen introduced the two phrases for byte ordering in an article. 
 
-Question 6: Why might you use a symbolic constant rather than an integer literal in your code?
+Question 6: Why might you use a symbolic constant rather than an integer literal in your code? 
 
 Question 25: Which data directive creates a 32-bit signed integer variable?
+SDWORD
 
 3.9.2 Algorithm Workbench:
 Question 4: Find out if you can declare a variable of type DWORD and assign it a negative
