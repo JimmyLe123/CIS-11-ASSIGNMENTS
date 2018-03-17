@@ -53,6 +53,8 @@ True
 
 4.4.5 Section Review:
 Question 4: (True/False): The following is an indexed operand: array[esi].
+True, the format for indexed operands is:
+constant[register]
 
 Question 5: Use the following data:
 myBytes BYTE 10h,20h,30h,40h
@@ -62,15 +64,15 @@ myPointer DWORD myDoubles
 
 Fill in the requested register values on the right side of the following instruction sequence:
 mov esi,OFFSET myBytes
-mov al,[esi] ; a) AL =
-mov al,[esi+3] ; b) AL =
+mov al,[esi] ; a) AL = 10h    ;al will get the first element in the myBytes array
+mov al,[esi+3] ; b) AL =40h   ;al will get the third element in the myBytes array which is the last one.      
 mov esi,OFFSET myWords + 2
-mov ax,[esi] ; c) AX =
+mov ax,[esi] ; c) AX =003Bh     ;add the first element in myWords by 2 and assign it to ax.
 mov edi,8
-mov edx,[myDoubles + edi] ; d) EDX =
-mov edx,myDoubles[edi] ; e) EDX =
+mov edx,[myDoubles + edi] ; d) EDX = 3    ;since myPointer is myDoubles, the element will point to 3.
+mov edx,myDoubles[edi] ; e) EDX = 3
 mov ebx,myPointer
-mov eax,[ebx+4] ; f) EAX =
+mov eax,[ebx+4] ; f) EAX = 2
 
 4.10 Programming Exercises:
 Question 7: Write a program with a loop and indirect addressing that copies a string from source to target,
@@ -78,3 +80,31 @@ reversing the character order in the process. Use the following variables:
 source BYTE "This is the source string",0
 target BYTE SIZEOF source DUP('#')
 
+ExitProcess proto	
+
+.data		;set aside memory to set the variables, and state where each variable is stored in memory
+
+source BYTE "This is the string",0	;Creating a byte array named source that holds a memory address.
+target BYTE SIZEOF source DUP( '#' )		;initializing target with a byte array with 17 characters with a bunch of '#'
+
+.code
+main proc
+
+	;initialize rcx SIZEOF source because you need to move one character or byte at a time.
+	mov ecx, SIZEOF source
+	;initialize pointer to first character of target
+	mov rbx, 0
+	;start loop
+MYLOOP:
+	;copy current caracter in source to current character in target
+	mov dl, [source + rcx - 1]
+	;mov that character to current character in target.
+	mov QWORD PTR[target + rbx], rdx
+	;increment target pointer
+	inc rbx
+	;end loop
+LOOP MYLOOP
+	
+call ExitProcess
+main endp
+end
