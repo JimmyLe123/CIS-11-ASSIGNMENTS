@@ -1,8 +1,38 @@
-4.2.8 Section Review
+4.2.8 Section Review:
+Question 1: Write an instruction that increments val2.
 
-4.3.8 Section Review
+Question 2: Write an instruction that subtracts val3 from EAX.
 
-4.4.5 Section Review
+Question 3: Write instructions that subtract val4 from val2.
 
-4.10 Programming Exercises
+Question 4: If val2 is incremented by 1 using the ADD instruction, what will be the values of the Carry
+and Sign flags?
+
+Question 5: If val4 is incremented by 1 using the ADD instruction, what will be the values of the Overflow
+and Sign flags?
+
+Question 6: Where indicated, write down the values of the Carry, Sign, Zero, and Overflow flags after
+each instruction has executed:
+mov ax,7FF0h
+add al,10h ; a) CF = SF = ZF = OF =
+add ah,1 ; b) CF = SF = ZF = OF =
+add ax,2 ; c) CF = SF = ZF = OF = 
+
+4.3.8 Section Review:
+Question 1: (True/False): The OFFSET operator always returns a 16-bit value.
+
+Question 2: (True/False): The PTR operator returns the 32-bit address of a variable.
+
+Question 3: (True/False): The TYPE operator returns a value of 4 for doubleword operands.
+
+Question 4: (True/False): The LENGTHOF operator returns the number of bytes in an operand.
+
+Question 5: (True/False): The SIZEOF operator returns the number of bytes in an operand.
+
+4.4.5 Section Review:
+Question 4: (True/False): The following instruction is invalid: inc [esi].
+
+Question 5: . (True/False): The following is an indexed operand: array[esi].
+
+4.10 Programming Exercises:
 Question 7: 
