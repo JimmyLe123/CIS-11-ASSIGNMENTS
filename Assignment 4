@@ -1,38 +1,80 @@
 4.2.8 Section Review:
-Question 1: Write an instruction that increments val2.
+Using the following code:
+.data
+val1 BYTE 10h
+val2 WORD 8000h
+val3 DWORD 0FFFFh
+val4 WORD 7FFFh
 
-Question 2: Write an instruction that subtracts val3 from EAX.
+Question 1: Write an instruction that increments val2.
+inc val2
+
+Question 2: Write an instruction that subtracts val3 from EAX. 
+sub eax, val3
 
 Question 3: Write instructions that subtract val4 from val2.
+mov bx, val4
+sub val2, bx
 
 Question 4: If val2 is incremented by 1 using the ADD instruction, what will be the values of the Carry
 and Sign flags?
+val2 = 11h = 10001, so
+Carry Flag = 0
+Sign Flag = 1
 
 Question 5: If val4 is incremented by 1 using the ADD instruction, what will be the values of the Overflow
 and Sign flags?
+Since the last value for val4 is f, and since f is 15, if you were to add one, there will be overflow.
+Overflow Flag = 1
+Sign Flag =  1
 
 Question 6: Where indicated, write down the values of the Carry, Sign, Zero, and Overflow flags after
 each instruction has executed:
 mov ax,7FF0h
-add al,10h ; a) CF = SF = ZF = OF =
-add ah,1 ; b) CF = SF = ZF = OF =
-add ax,2 ; c) CF = SF = ZF = OF = 
+add al,10h ; a) CF = 1, SF = 0, ZF = 1, OF = 0
+add ah,1 ; b) CF = 0, SF = 1, ZF = 1, OF = 0
+add ax,2 ; c) CF = 0, SF = 1, ZF = 0, OF = 0 
 
 4.3.8 Section Review:
-Question 1: (True/False): The OFFSET operator always returns a 16-bit value.
+Question 1: (True/False): The OFFSET operator always returns a 16-bit value. 
+False, the offset operator returns the offset of a data label.
 
 Question 2: (True/False): The PTR operator returns the 32-bit address of a variable.
+False, since the PTR operator overrides the size of an operand, it will not always return a 32 bit address.
 
 Question 3: (True/False): The TYPE operator returns a value of 4 for doubleword operands.
+True, the TYPE operator will return a value of 4 because doubleword contains 4 bytes.
 
 Question 4: (True/False): The LENGTHOF operator returns the number of bytes in an operand.
+False, the LENGTHOF operator will return the number of elements in an array. 
 
 Question 5: (True/False): The SIZEOF operator returns the number of bytes in an operand.
+True
 
 4.4.5 Section Review:
-Question 4: (True/False): The following instruction is invalid: inc [esi].
+Question 4: (True/False): The following is an indexed operand: array[esi].
 
-Question 5: . (True/False): The following is an indexed operand: array[esi].
+Question 5: Use the following data:
+myBytes BYTE 10h,20h,30h,40h
+myWords WORD 8Ah,3Bh,72h,44h,66h
+myDoubles DWORD 1,2,3,4,5
+myPointer DWORD myDoubles
+
+Fill in the requested register values on the right side of the following instruction sequence:
+mov esi,OFFSET myBytes
+mov al,[esi] ; a) AL =
+mov al,[esi+3] ; b) AL =
+mov esi,OFFSET myWords + 2
+mov ax,[esi] ; c) AX =
+mov edi,8
+mov edx,[myDoubles + edi] ; d) EDX =
+mov edx,myDoubles[edi] ; e) EDX =
+mov ebx,myPointer
+mov eax,[ebx+4] ; f) EAX =
 
 4.10 Programming Exercises:
-Question 7: 
+Question 7: Write a program with a loop and indirect addressing that copies a string from source to target,
+reversing the character order in the process. Use the following variables:
+source BYTE "This is the source string",0
+target BYTE SIZEOF source DUP('#')
+
