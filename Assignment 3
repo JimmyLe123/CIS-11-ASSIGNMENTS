@@ -83,4 +83,20 @@ Question 13: Declare a string variable containing the word “TEST” repeated 5
 String BYTE 500 DUP("TEST")
 
 3.10 Programming Exercises:
-Question 
+Question 1: Using the AddTwo program from Section 3.2 as a reference, write a program that calculates the
+following expression, using registers: A = (A + B) − (C + D). Assign integer values to the EAX,
+EBX, ECX, and EDX registers.
+
+.code
+main PROC
+ mov eax,5
+ mov ebx,10
+ mov ecx,4
+ mov edx,6
+ add ebx,eax
+ add edx,ecx
+ neg edx
+ add ebx,edx
+ INVOKE ExitProcess,0
+main ENDP
+END main
