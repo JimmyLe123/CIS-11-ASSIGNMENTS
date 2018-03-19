@@ -74,13 +74,13 @@ SDWORD
 3.9.2 Algorithm Workbench:
 Question 4: Find out if you can declare a variable of type DWORD and assign it a negative
 value. What does this tell you about the assembler’s type checking?
-
+You are able to assign a negative value to it. So this means that the assembler does not check for the sign of the number.
 
 Question 7: Declare an array of 120 uninitialized unsigned doubleword values.
-
+Array DWORD 120 DUP('?')
 
 Question 13: Declare a string variable containing the word “TEST” repeated 500 times.
-
+String BYTE 500 DUP("TEST")
 
 3.10 Programming Exercises:
-
+Question 
