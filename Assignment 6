@@ -1,0 +1,25 @@
+5.9 Programming Exercises, Question 7
+(Written in the Irvine64 Library)
+
+WriteInt64 PROTO
+Random64 PROTO
+ReadInt64 PROTO
+
+.data
+
+.code
+main proc
+	XOR rdx,rdx
+	call Random64
+	mov rcx, 100
+	div rcx
+	mov rcx,rdx
+L1: 
+	mov rax, rcx
+	call WriteInt64
+	call ReadInt64
+	call WriteInt64
+	Loop L1
+main endp
+
+end
