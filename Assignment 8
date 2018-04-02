@@ -1,0 +1,8 @@
+Convert this variable to decimal: DWORD  1111 1111 1111 1111 1111 1111 1111 1110 (Unsigned)
+1111 1111 1111 1111 1111 1111 1111 1110 = 32
+
+Convert this variable to decimal: SDWORD 1111 1111 1111 1111 1111 1111 1111 1110 (Signed)
+
+Convert this variable to decimal: DWORD  0000 0000 0000 0000 0000 0000 1111 1110 (Unsigned)
+
+Convert this variable to decimal: SDWORD 0000 0000 0000 0000 0000 0000 1111 1110 (Signed)
