@@ -3,7 +3,6 @@ Question 7: Write a program that displays a single character at 100 random scree
 delay of 100 milliseconds. Hint: Use the GetMaxXY procedure to determine the current size of
 the console window.
 
-
 (Written in the Irvine64 Library)
 
 WriteInt64 PROTO
@@ -35,3 +34,54 @@ array of doubleword. Input parameters should be a pointer to an array of doublew
 counter of the number of values to generate. Write a test program that calls your procedure,
 passing N = 47. The first value in the array will be 1, and the last value will be 2,971,215,073.
 Use the Visual Studio debugger to open and inspect the array contents.
+
+;Fibonacci Sequence
+
+ExitProcess proto
+WriteInt64 PROTO
+Crlf PROTO
+
+.data
+nMinus2 QWORD 0 
+nMinus1 QWORD 1
+n		QWORD ?
+
+.code
+main proc
+	;Set the loop counter to 44
+	mov rcx, 44
+
+	;print nMinus2
+	mov rax, nMinus2
+	call WriteInt64 
+	call Crlf
+
+	;print nMinus1
+	mov rax, nMinus1
+	call WriteInt64 
+	call Crlf
+StartLoop:
+	;set n = nMinus2  + nMinus1		;1 + 1
+	mov r9, n
+	add r9, nMinus1
+	mov n, r9
+	
+	;print n
+	mov rax, n
+	call WriteInt64
+	call Crlf
+
+	;nMinus2 = nMinus1
+	mov r9, nMinus1
+	mov nMinus2, r9
+
+	;nMinus1 = n
+	mov r9, n
+	mov nMinus1, r9
+
+loop StartLoop
+
+   mov  ecx,0
+   call ExitProcess
+main endp
+end
