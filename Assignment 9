@@ -1,5 +1,5 @@
-
 Question 1: Briefly describe the concept of "Stack Frame" (1 through 5 points depending on quality of the answer)
+A stack frame is a collection of data that is associated with the current subroutine that the program is on.
 
 Question 2: Briefly describe the concept of a "Calling Convention" (1 through 5 points depending on quality of the answer)
 
