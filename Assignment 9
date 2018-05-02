@@ -14,6 +14,8 @@ Question 4: What is the x64 equivalent to "push epb" and "mov ebp,esp" (2 points
 
 Question 5: What are the differences between "Microsoft x64 calling convention" and "System V AMD64 ABI calling convention?" 
 (2 points)
+One differenceSystem V AMD64 ABI can take more parameters to be put into registers, and those registers that take in the parameters 
+are differentthan Microsoft x64. Another difference is that System V AMD64 ABI does not include shadow space on function entry.
 
 For Questions 6 and 7, reference
 void myFunction(int a, int b, int c, int d, int e, int f)  
