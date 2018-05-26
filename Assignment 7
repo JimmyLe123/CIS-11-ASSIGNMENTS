@@ -11,6 +11,109 @@ be performed. You must implement this procedure using the Table-Driven Selection
 shown in Section 6.5.4. (You will implement the operations in Exercise 6.) (The Irvine32 library
 is required for this solution program.)
 
+Crlf PROTO
+ReadInt64 PROTO
+ReadString PROTO
+WriteString PROTO
+WriteInt64 PROTO
+
+ExitProcess Proto
+.data
+UserEnter BYTE 0,0 
+Choice1 BYTE 1,0
+Choice2 BYTE 2,0
+Choice3 BYTE 3,0
+Choice4 BYTE 4,0
+
+Instruction BYTE "Using the menu, enter 1-5 to make your choice: ", 0
+MenuChoices BYTE "1.x AND y 2.x OR y 3.NOT x 4.x XOR y 5.Exit program",0
+Operation1 BYTE "x AND y",0
+Operation2 BYTE "x OR y",0
+Operation3 BYTE "NOT x",0
+Operation4 BYTE "x XOR y",0
+EndOfProgram BYTE "End of the Program", 0
+
+.code
+main proc
+	mov edx, OFFSET Instruction
+	call WriteString
+	call Crlf
+	mov edx, OFFSET MenuChoices
+	call WriteString
+	call Crlf
+	call ReadInt64
+
+	mov UserEnter, al
+	mov bl, Choice1
+	cmp bl, al
+	jz LOOP1
+	mov bl, Choice2
+	cmp bl, al
+	jz LOOP2
+	mov bl, Choice3
+	cmp bl, al
+	jz LOOP3
+	mov bl, Choice4
+	cmp bl, al
+	jz LOOP4
+	jmp Close
+
+	Loop1:
+		call Operation_xANDy
+		jmp Close
+	Loop2:
+		call Operation_xORy
+		jmp Close
+	Loop3:
+		call Operation_NOTx
+		jmp Close
+	Loop4:
+		call Operation_xXORy
+		jmp Close
+
+	Close:
+		call EndProgram
+
+	
+	call ExitProcess
+
+main endp
+
+
+EndProgram Proc
+	call Crlf
+	mov rdx, OFFSET EndOfProgram
+	call WriteString
+	call ReadInt64
+	ret
+EndProgram endp
+
+Operation_xANDy proc
+	mov rdx, OFFSET Operation1
+	call WriteString
+	ret
+Operation_xANDy endp
+
+Operation_xORy proc
+	mov rdx, OFFSET Operation2
+	call WriteString
+	ret
+Operation_xORy endp
+
+Operation_NOTx proc
+	mov rdx, OFFSET Operation3
+	call WriteString
+	ret
+Operation_NOTx endp
+
+Operation_xXORy proc
+	mov rdx, OFFSET Operation4
+	call WriteString
+	ret
+Operation_xXORy endp
+
+
+end
 
 
 
